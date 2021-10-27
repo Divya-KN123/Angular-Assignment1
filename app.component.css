@@ -1,0 +1,31 @@
+.container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.button {
+  color: rgb(28, 28, 156);
+  background-color: crimson;
+}
+.todo-form {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.todo-list > li {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.todo-list > li > div {
+  color: blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.todo-list button {
+  float: right;
+}
